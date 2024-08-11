@@ -1,3 +1,4 @@
-﻿from src.discord_bot import run_client
+﻿from src.discord_bot import DiscordClient
 
-run_client()
+discordClient = DiscordClient()
+discordClient.run()
